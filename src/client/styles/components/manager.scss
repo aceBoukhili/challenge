@@ -1,0 +1,21 @@
+.header {
+  color: $white;
+  width: 100%;
+  @include gradient-background($first-pink, $second-pink, 45deg);
+  grid-area: header;
+
+  h3 {
+    margin: 30px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+}
+
+.cds {
+  background-color: $white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

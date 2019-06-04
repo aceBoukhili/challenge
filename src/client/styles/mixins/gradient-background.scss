@@ -1,0 +1,6 @@
+@mixin gradient-background($col1, $col2, $deg) {
+  background: -webkit-linear-gradient($deg, $col1 , $col2) !important;
+  background: -o-linear-gradient($deg, $col1, $col2) !important;
+  background: -moz-linear-gradient($deg, $col1, $col2) !important;
+  background: linear-gradient(to $deg, $col1 , $col2) !important;
+}

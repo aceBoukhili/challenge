@@ -1,0 +1,34 @@
+.button-container {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  padding: 0 25px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $third-black;
+
+  span {
+    color: $white;
+    font-weight: bold;
+  }
+
+  &__hadoop {
+    border-left: 5px solid $first-pink;
+  }
+
+  &__rails {
+    border-left: 5px solid $first-purple;
+  }
+
+  &__chronos {
+    border-left: 5px solid $first-blue;
+  }
+
+  &__storm {
+    border-left: 5px solid $first-green;
+  }
+
+  &__spark {
+    border-left: 5px solid $second-green;
+  }
+}

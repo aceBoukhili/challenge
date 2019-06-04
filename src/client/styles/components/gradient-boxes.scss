@@ -1,0 +1,24 @@
+.#{$namespace}__rails {
+  border: none!important;
+  @include gradient-background($first-blue, $first-purple, 45deg);
+}
+
+.#{$namespace}__hadoop {
+  border: none!important;
+  @include gradient-background($first-pink, $second-pink, 45deg);
+}
+
+.#{$namespace}__chronos {
+  border: none!important;
+  @include gradient-background($first-blue, $second-blue, 45deg);
+}
+
+.#{$namespace}__spark {
+  border: none!important;
+  background-color: $second-green!important;
+}
+
+.#{$namespace}__storm {
+  border: none!important;
+  background-color: $first-green!important;
+}
