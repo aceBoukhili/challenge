@@ -49,7 +49,7 @@
     "@hot-loader/react-dom": "^16.8.1",
     "@material-ui/core": "^4.0.2",
     "@material-ui/icons": "^4.0.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.18.3",
     "classnames": "^2.2.6",
