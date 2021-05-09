@@ -59,7 +59,7 @@
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "hot": "^0.0.7",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "morgan": "^1.9.1",
     "node-sass": "^4.11.0",
